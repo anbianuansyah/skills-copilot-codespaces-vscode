@@ -1,11 +1,7 @@
 // create web server
-var http = require('http');
-
-// create web server
-var server = http.createServer(function(request, response) {
-    response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello, Node.js!");
-});
-
-// listen on port 8000
-server.listen(8000);
+// create a route for comments
+// create a route for comments/new
+// create a route for comments/:id
+// create a route for comments/:id/edit
+// create a route for comments/:id/delete
+// create a route for comments/:id/update
